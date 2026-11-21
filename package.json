@@ -1,0 +1,25 @@
+{
+  "name": "bharat-scheme-smart-gas",
+  "version": "2.0.0",
+  "description": "Bharat Scheme - Smart LPG Gas Management System with Brevo email verification and Gemini AI chatbot",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "db:init": "cd backend && npm run db:init"
+  },
+  "keywords": [
+    "bharat-scheme",
+    "smart-gas",
+    "lpg-management",
+    "indane",
+    "bharat-gas",
+    "hp-gas",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Bharat Digital Governance Initiative",
+  "license": "ISC"
+}

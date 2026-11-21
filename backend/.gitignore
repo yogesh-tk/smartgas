@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Secrets & API Keys)
+.env
+.env.local
+.env.production
+
+# Build folders
+dist/
+build/
+
+# Logs & OS files
+npm-debug.log*
+.DS_Store
+Thumbs.db

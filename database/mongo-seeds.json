@@ -1,0 +1,102 @@
+{
+  "gas_providers": [
+    {
+      "id": "indane",
+      "display_name": "Indane Gas",
+      "display_name_ta": "இண்டேன் காஸ்",
+      "company_name": "Indian Oil Corporation Ltd (IOCL)",
+      "logo_badge": "IOCL-IND",
+      "primary_color": "#EA580C",
+      "cylinder_price_14kg": 803.00,
+      "cylinder_price_5kg": 310.00,
+      "cylinder_price_19kg": 1740.50,
+      "subsidy_rate": 200.00,
+      "emergency_helpline": "1906",
+      "toll_free_helpline": "1800-233-3555",
+      "api_status": "mock_sandbox",
+      "is_active": true
+    },
+    {
+      "id": "bharat_gas",
+      "display_name": "Bharat Gas",
+      "display_name_ta": "பாரத் கேஸ்",
+      "company_name": "Bharat Petroleum Corporation Ltd (BPCL)",
+      "logo_badge": "BPCL-BHT",
+      "primary_color": "#EAB308",
+      "cylinder_price_14kg": 802.50,
+      "cylinder_price_5kg": 315.00,
+      "cylinder_price_19kg": 1738.00,
+      "subsidy_rate": 200.00,
+      "emergency_helpline": "1906",
+      "toll_free_helpline": "1800-22-4344",
+      "api_status": "mock_sandbox",
+      "is_active": true
+    },
+    {
+      "id": "hp_gas",
+      "display_name": "HP Gas",
+      "display_name_ta": "ஹெச்பி கேஸ்",
+      "company_name": "Hindustan Petroleum Corporation Ltd (HPCL)",
+      "logo_badge": "HPCL-HPG",
+      "primary_color": "#2563EB",
+      "cylinder_price_14kg": 803.00,
+      "cylinder_price_5kg": 308.00,
+      "cylinder_price_19kg": 1745.00,
+      "subsidy_rate": 200.00,
+      "emergency_helpline": "1906",
+      "toll_free_helpline": "1800-233-3777",
+      "api_status": "mock_sandbox",
+      "is_active": true
+    }
+  ],
+  "demo_users": [
+    {
+      "full_name": "Anandan Selvaraj",
+      "email": "citizen@bharatgas.gov.in",
+      "mobile_number": "9876543210",
+      "role": "citizen",
+      "language": "en",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "default_password": "Password@123",
+      "demo_otp": "123456"
+    },
+    {
+      "full_name": "Officer Rajesh Kumar (LPG Admin)",
+      "email": "admin@bharatgas.gov.in",
+      "mobile_number": "9876500000",
+      "role": "admin",
+      "language": "en",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "default_password": "Password@123",
+      "demo_otp": "123456"
+    }
+  ],
+  "sample_consumers": [
+    {
+      "provider_id": "indane",
+      "consumer_number": "IND-7009412",
+      "registered_mobile": "9876543210",
+      "consumer_name": "Anandan Selvaraj",
+      "distributor_name": "Sri Meenakshi Indane Vitrak",
+      "delivery_address": "Flat 4B, Kaveri Towers, Anna Nagar West, Chennai - 600040"
+    },
+    {
+      "provider_id": "bharat_gas",
+      "consumer_number": "BHT-5541908",
+      "registered_mobile": "9876543211",
+      "consumer_name": "Selvaraj Muthu (Father)",
+      "distributor_name": "Pandian Bharat Gas Agency",
+      "delivery_address": "12/4 East Veli Street, Simmakkal, Madurai - 625001"
+    },
+    {
+      "provider_id": "hp_gas",
+      "consumer_number": "HP-9902184",
+      "registered_mobile": "9876543212",
+      "consumer_name": "Kavitha Anandan (Spouse)",
+      "distributor_name": "Kovai Sri Krishna HP Gas Agency",
+      "delivery_address": "28 Gandhipuram 4th Street, Coimbatore - 641012"
+    }
+  ]
+}
